@@ -84,6 +84,7 @@ body {
   position: absolute;
   top: 15px;
   left: 0;
+  cursor: text;
 }
 
 .form-control label span {
