@@ -1,0 +1,24 @@
+html {
+ scroll-snap-type: y mandatory;
+ 
+}
+* {
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+section {
+  height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  scroll-margin-top: 30px;
+}
+
+nav {
+  height: 30px;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+}
